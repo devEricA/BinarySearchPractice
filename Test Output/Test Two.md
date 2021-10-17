@@ -1,7 +1,7 @@
 # Test Two - Binary Search
 ## Each password was inputted in a seperate session, in order to treat each password as a first input
 
-<code>
+```
 $ javac BinaryResearch.java 
 $ java BinaryResearch 
 Initializing the list with the contents of rockyou.txt....
@@ -129,5 +129,5 @@ Enter a password to test :: ZoWeMamaThisDoesNotExist
 Good password. It's not in the rockyou list.
 First binary search made. It took 1532 miliseconds.
 
-Do you have another password to test? (Y/N) :: n
-</code>
+Do you have another password to test? (Y/N) :: n}
+```

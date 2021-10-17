@@ -3,9 +3,9 @@
 ### except the Collections.sort (Line 96) was commented out. 
 ### Done to verify the fact that the list needs to be sorted prior to running the search. 
 
-<code>
+```
 $ javac BinaryResearch.java 
-eric@ADF01-Falken:~/Recreational Projects/MyOwn/BinarySearchPractice$ java BinaryResearch 
+$ java BinaryResearch 
 Initializing the list with the contents of rockyou.txt....
 It took 7752 miliseconds to load the list.
 
@@ -79,5 +79,4 @@ Good password. It's not in the rockyou list.
 The binary search took 1 miliseconds.
 
 Do you have another password to test? (Y/N) :: n
-
-</code>
+```

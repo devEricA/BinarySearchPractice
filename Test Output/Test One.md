@@ -1,7 +1,7 @@
 # Test One - Binary Search
 ## 12345 is the first inputted password, the rest of the passwords were inputted in one session
 
-<code>
+```
 $ javac BinaryResearch.java 
 $ java BinaryResearch 
 Initializing the list with the contents of rockyou.txt....
@@ -77,4 +77,4 @@ Good password. It's not in the rockyou list.
 The binary search took 0 miliseconds.
 
 Do you have another password to test? (Y/N) :: n
-</code>
+```

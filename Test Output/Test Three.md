@@ -3,9 +3,9 @@
 ### Then Linear search was activated (Lines 157 - 178) via Ctrl + /
 ### Collections.sort and its timers (Lines 95-97) were also commented out.
 
-<code>
+```
 $ javac BinaryResearch.java 
-eric@ADF01-Falken:~/Recreational Projects/MyOwn/BinarySearchPractice$ java BinaryResearch 
+$ java BinaryResearch 
 Initializing the list with the contents of rockyou.txt....
 It took 7644 miliseconds to load the list.
 
@@ -79,4 +79,4 @@ Good password. It's not in the rockyou list.
 The linear search took 115 miliseconds
 
 Do you have another password to test? (Y/N) :: n
-</code>
+```

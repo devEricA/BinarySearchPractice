@@ -4,9 +4,9 @@
 ### Collections.sort and its timers (Lines 95-97) were also commented out.
 ### New test with IndexOf created (Lines 180 - 191)
 
-<code>
+```
 $ javac BinaryResearch.java 
-eric@ADF01-Falken:~/Recreational Projects/MyOwn/BinarySearchPractice$ java BinaryResearch 
+$ java BinaryResearch 
 Initializing the list with the contents of rockyou.txt....
 It took 7623 miliseconds to load the list.
 
@@ -80,4 +80,4 @@ Good password. It's not in the rockyou list.
 Index Of took 124 miliseconds
 
 Do you have another password to test? (Y/N) :: n
-</code>
+```
