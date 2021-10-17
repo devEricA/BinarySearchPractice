@@ -63,9 +63,7 @@ Five tests were run, using Binary Search, Linear Search and Index Of.
 See the Test Output folder of this repository in order to see the tests and output in full detail. 
  
 ## Results
-Collections.sort() placed a larger overhead than anticipated when it came to the first binary searches. This is evident as each of the first searches conducted in
-
-Binary search took well over 1500 miliseconds, because the list was in the process of being sorted. 
+Collections.sort() placed a larger overhead than anticipated when it came to the first binary searches. This is evident as each of the first searches conducted in Binary search took well over 1500 miliseconds, because the list was in the process of being sorted. Thus, it turns out Binary search is not very effective for when it comes to one instance for unsorted lists. 
 
 After the sorting of the list however, Binary search out-performed linear search in all cases and out-performed Index of in cases where passwords were not in rockyou.txt. 
 
