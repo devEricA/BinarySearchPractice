@@ -1,5 +1,5 @@
 # Binary Search Practice
-A Lab that analyzes the efficiency of BinarySearch.
+A lab that analyzes the efficiency of BinarySearch.
 
 Users of this program input passwords that they want to test. 
 
