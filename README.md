@@ -8,7 +8,7 @@ The program compares the password against passwords found rockyou.txt, a wordlis
 If the password is in rockyou.txt, the program outputs "Bad Password." Else, it outputs "Good Password". 
 
 Due to the large size of rockyou.txt, it cannot be stored on this repository.
-Find and download rockyou text [here](https://gitlab.com/kalilinux/packages/wordlists/blob/kali/master/rockyou.txt.gz).
+Find and download rockyou.txt [here](https://gitlab.com/kalilinux/packages/wordlists/blob/kali/master/rockyou.txt.gz).
 You will need to unzip it since it comes in a .gz package. 
 
 ## Problem
