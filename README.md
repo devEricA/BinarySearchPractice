@@ -58,7 +58,7 @@ The following Password inputs were used:
 * HaHaThisAlsoDoesNotExist
 * ZoWeMamaThisDoesNotExist
 
-Five tests were run, using Binary Search, Linear Search and Index Of.
+Five tests were run, using Binary Search, Linear Search, and Index Of.
 
 See the Test Output folder of this repository in order to see the tests and output in full detail. 
  
