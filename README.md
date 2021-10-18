@@ -9,7 +9,7 @@ If the password is in rockyou.txt, the program outputs "Bad Password." Else, it 
 
 | :exclamation: IMPORTANT         |
 |:---------------------------|
-| Before you run this lab for yourself, you must extract the rockyou.txt file out of the rockyou.txt.gz file included in this repo.      |
+| Before you run this lab for yourself, you must extract the rockyou.txt file out of the rockyou.txt.gz file included in this repo.|
 
 ## Problem
 Algorithms that run in O(n) time are becoming obsolete in today's world.
@@ -39,7 +39,7 @@ However, any additional searches that we need to perform will be done in O(log <
 ## Tests Conducted
 This program was compiled in a Linux Mint environment using the CLI commands <code>javac BinaryResearch.java</code> and <code>java BinaryResearch</code>.
 
-This program was also developed using Visual Studio Code. 
+This program was also developed with Visual Studio Code. 
 
 The following Password inputs were used:
 * 12345
@@ -57,21 +57,21 @@ The following Password inputs were used:
 * HaHaThisAlsoDoesNotExist
 * ZoWeMamaThisDoesNotExist
 
-Five tests were run, using Binary Search, Linear Search and Index Of.
+Five tests were run, using binary search, linear search and Index Of.
 
 See the Test Output folder of this repository in order to see the tests and output in full detail. 
  
 ## Results
-Collections.sort() placed a larger overhead than anticipated when it came to the first binary searches. This is evident as each of the first searches conducted in Binary search took well over 1500 miliseconds, because the list was in the process of being sorted. Thus, it turns out Binary search is not very effective for cases where we need to find one object in an unsorted list. 
+Collections.sort() placed a larger overhead than anticipated when it came to the first binary searches. This is evident as each of the first searches conducted in binary search took well over 1000 miliseconds, because the list was in the process of being sorted. Thus, it turns out binary search is not very effective for cases where we need to find one object in an unsorted list. 
 
-After the sorting of the list however, Binary search out-performed linear search in all cases and out-performed Index of in cases where passwords were not in rockyou.txt. Thus, Binary search is useful for when we need to find multiple objects in an unsorted list. It's also ideal for finding objects in a list that is already sorted. 
+After the sorting of the list however, binary search out-performed linear search in all cases and out-performed Index of in cases where passwords were not in rockyou.txt. Thus, binary search is useful for when we need to find multiple objects in an unsorted list, and for finding objects in a list that is already sorted. 
 
-Performance of Binary search and Index of were almost identical for cases where the password existed in rockyou.txt and the passwords were sorted. 
+Performance of binary search and Index of were almost identical for cases where the password existed in rockyou.txt and the passwords were sorted. 
 
 ## Actions to take for the future
-If programming challenges call for a search in a sorted list or for a large number of searches in a unsorted list, Binary search will be used. 
+If programming challenges call for a search in a sorted list or for a large number of searches in a unsorted list, binary search will be used. 
 
 For other search cases, especially those that involve unsorted lists, I will need to take a deeper dive into the functionality of the IndexOf() function, since 
-it's performance was on par with Binary Search for cases that existed within a list, no matter whether or not the list was sorted.
+it's performance was on par with binary search for cases that existed within a list, no matter whether or not the list was sorted.
 
 I will also need to take a deeper dive into how string matching works. 
