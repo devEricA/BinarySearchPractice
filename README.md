@@ -59,7 +59,7 @@ The following password inputs were used:
 
 Five tests were run, using binary search, linear search and indexOf().
 
-See the Test Output folder of this repository in order to see the tests and output in full detail. 
+See the [Test Output](https://github.com/devEricA/BinarySearchPractice/tree/main/Test%20Output) folder of this repository in order to see the tests and output in full detail. 
  
 ## Results
 Collections.sort() placed a larger overhead than anticipated when it came to the first binary searches. This is evident as each of the first searches conducted in binary search took well over 1000 miliseconds, because the list was in the process of being sorted. Thus, it turns out binary search is not very effective for cases where we need to find one object in an unsorted list. 
